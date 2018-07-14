@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/nutritionintro"
+            android:text = "Nutrition Courses"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/nutrition"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/nc2"
+            android:text = "Certificate Course in Weight Management and Slimming Therapies"
+            android:layout_below="@+id/nutritionintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/nc2course"
+            android:text = "Course Content : "
+            android:layout_below="@+id/nc2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/nc2content"
+            android:text="Components of body weight, Assessment approaches in Weight Management, Causes and consequences of obesity, Energy nutrients and energy metabolism, Weight management – dietary/therapeutic/behavioral and other approaches e.g. drugs, surgery etc, weight imbalance, VLCC – Holistic approach to weight management."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/nc2course"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/nc2career"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/nc2content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/nc2copportunity"
+            android:text="@string/nutrition_opp"
+            android:textSize="15dp"
+            android:layout_marginLeft="6dp"
+            android:layout_below="@+id/nc2career" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/duration"
+        android:text = "Duration:"
+        android:layout_below="@+id/nc2copportunity"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/time"
+        android:text = "190 Hours"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/duration"
+        android:layout_toEndOf="@+id/duration" />
+    </RelativeLayout>

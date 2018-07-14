@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/spaintro"
+            android:text = "Spa Therapy Courses"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/ayurveda_banner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st3"
+            android:text = "Diploma in Spa Therapies (DST)"
+            android:layout_below="@+id/spaintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st3course"
+            android:text = "Course Content : "
+            android:layout_below="@+id/st3"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st3content"
+            android:text=" Introduction of spa, Theory of various western, Indian (Ayurvedic) and oriental spa treatments, Treatment practical, Spa decoration, Set up, Spa etiquettes, Spa cuisine, Body Wraps, SPA Facials, Spa Manicure and Pedicure."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/st3course"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st3career"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/st3content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st3copportunity"
+            android:text = "On the successful completion of course in Spa, qualified candidate can become a Spa Therapist, Technical Trainer, Spa Manager or a Freelancer with Beauty / Slimming Units, Gym, Spas, Hotels and Health Resorts"
+            android:textSize="15dp"
+            android:layout_below="@+id/st3career" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/duration"
+            android:text = "Duration:"
+            android:layout_below="@+id/st3copportunity"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/time"
+            android:text = "72 Hours"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/duration"
+            android:layout_toEndOf="@+id/duration" />
+    </RelativeLayout>
+</ScrollView>

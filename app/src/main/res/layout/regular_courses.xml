@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lv"
+    />
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:id = "@+id/regular1"
+        android:text = "Regular Courses"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/regular"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="160dp"
+        android:id = "@+id/rc1"
+        android:src = "@drawable/cosmetology"
+        android:layout_marginLeft="11dp"
+        android:layout_below="@+id/regular1"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:id = "@+id/cosmetology"
+        android:text = "Cosmetology"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/regular"
+        android:layout_alignBottom="@+id/rc1"
+        android:layout_alignStart="@+id/rc1" />
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="160dp"
+        android:id = "@+id/rc2"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="12dp"
+        android:src = "@drawable/hair"
+        android:layout_below="@+id/regular1"
+        android:layout_alignStart="@+id/rc4" />
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:id = "@+id/hair"
+        android:text = "Hair"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/regular"
+        android:layout_alignTop="@+id/cosmetology"
+        android:layout_toEndOf="@+id/cosmetology" />
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="160dp"
+        android:id = "@+id/rc3"
+        android:layout_marginLeft="11dp"
+        android:src = "@drawable/makeup"
+        android:layout_marginTop="-22dp"
+        android:layout_below="@+id/cosmetology"/>
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:id = "@+id/makeup"
+        android:text = "Make-Up"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@drawable/regular"
+        android:layout_above="@+id/rc6"
+        android:layout_toStartOf="@+id/rc4" />
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="160dp"
+        android:id = "@+id/rc4"
+        android:src = "@drawable/nutrition"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="-22dp"
+        android:layout_below="@+id/hair"
+        android:layout_toRightOf="@+id/rc3"
+        android:layout_alignParentStart="false" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:id = "@+id/nutrition"
+        android:text = "Nutrition"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/regular"
+        android:layout_alignBottom="@+id/rc4"
+        android:layout_toEndOf="@+id/therapy" />
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="160dp"
+        android:id = "@+id/rc5"
+        android:src = "@drawable/therapy"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="-22dp"
+        android:layout_below="@+id/makeup"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:id = "@+id/therapy"
+        android:text = "Skin-Therapy"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/regular"
+        android:layout_alignBottom="@+id/rc5"
+        android:layout_alignEnd="@+id/rc5" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:id = "@+id/rc6"
+        android:src = "@drawable/spa"
+        android:layout_marginLeft="01dp"
+        android:layout_marginTop="-22dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@+id/nutrition"
+        android:layout_alignParentStart="false"
+        android:layout_toRightOf="@+id/rc5"/>
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:id = "@+id/spa"
+        android:text = "Spa Therapy Courses"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@drawable/regular"
+        android:layout_alignBottom="@+id/rc6"
+        android:layout_alignStart="@+id/rc6" />
+-->
+
+</RelativeLayout>

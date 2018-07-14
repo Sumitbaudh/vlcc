@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/spaintro"
+            android:text = "Spa Therapy Courses"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/ayurveda_banner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st1"
+            android:text = "Western Spa Therapy"
+            android:layout_below="@+id/spaintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st1course"
+            android:text = "Course Content : "
+            android:layout_below="@+id/st1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st1content"
+            android:text = "Introduction to Spa world, Definition of Spa, History of Spas, Types of Spa, Different Spa treatments, Various Spa Products, Room Set up, Bed Set up, Spa decoration, Client handling. Anatomy and Physiology, Study of bones and muscles, Study of various organ systems, Study of various body movements. Requirements from a therapist: Meditation for the giver, Asian Medicine, Thai Massage, Balinese Massage, Javanese Lulur, Reflexology."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/st1course"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st1career"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/st1content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/st1copportunity"
+            android:text = " SPA Therapist in Day Spas, Destination Spas, Hotel Spas."
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/st1career"
+            android:layout_toEndOf="@+id/st1career" />
+    </RelativeLayout>
+</ScrollView>

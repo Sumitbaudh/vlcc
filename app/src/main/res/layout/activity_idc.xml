@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vlccinstitute.ashish.vlcc.Cosmetology.Idc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id = "@+id/cosmetologyintro"
+        android:text = "Cosmetology"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/cosmetology"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/gmic"
+        android:text = "International Diploma in Cosmetology"
+        android:layout_below="@+id/cosmetologyintro"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/gmiccourse"
+        android:text = "Course Content : "
+        android:layout_below="@+id/gmic"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/gmiccontent"
+        android:text="Skin Theory, Client Consultation, Jet Peel, Chemical Peel and Microdermabrasion, Laser, Microcurrent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="normal"
+        android:textSize="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/gmiccourse"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/gmiccareer"
+        android:text = "Career Oppotunities : "
+        android:layout_below="@+id/gmiccontent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/gmiccopportunity"
+        android:text="@string/cosmetology_opp"
+        android:textSize="15dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/gmiccareer" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/duration"
+        android:text = "Duration:"
+        android:layout_below="@+id/gmiccopportunity"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/time"
+        android:text = "190 Hours"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/duration"
+        android:layout_toEndOf="@+id/duration" />
+
+
+
+</RelativeLayout>
+</ScrollView>

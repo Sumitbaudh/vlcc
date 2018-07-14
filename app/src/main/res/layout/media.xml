@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/makeupintro"
+            android:text = "Makeup"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/makeup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/media"
+            android:text = "Media Makeup (Level III)"
+            android:layout_below="@+id/makeupintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/mediacourse"
+            android:text = "Course Content : "
+            android:layout_below="@+id/media"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/mediacontent"
+            android:text = "Anchor Makeup Female (Indoor) With Hairstyle, Movie Makeup With Hair Style, Helen Look With Hairstyle, Jodha Bridal Look With Hairstyle, Meena Kumari Pakeezah Look With Hairstyle, Metallic Makeup With Hairstyle, Air Brush Makeup, Face Art, Body Art and Practical."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/mediacourse"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/mediacareer"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/mediacontent"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/mediacopportunity"
+            android:text = " Makeup Artist/Technician for Films and Television Production Houses, Fashion houses and other Media Industries."
+            android:textSize="14dp"
+            android:layout_alignTop="@+id/mediacareer"
+            android:layout_toEndOf="@+id/mediacareer" />
+    </RelativeLayout>

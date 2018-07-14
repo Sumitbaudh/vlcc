@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/regular_courses"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Regular Courses"/>
+        <item
+            android:id="@+id/correspondence"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Certificate Courses"/>
+
+        <item
+            android:id="@+id/workshop"
+            android:icon="@drawable/ic_brush_black_24dp"
+            android:title="Workshops"/>
+
+        <item
+            android:id="@+id/placement"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="Placements" />
+
+
+        <item
+            android:id="@+id/photo_gallery"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="Photo Gallery" />
+
+
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/about_us1"
+                android:icon="@drawable/ic_tag_faces_black_24dp"
+                android:title="About Us" />
+
+        </menu>
+    </item>
+
+</menu>

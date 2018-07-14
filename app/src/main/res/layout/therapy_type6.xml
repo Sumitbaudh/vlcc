@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/therapyintro"
+            android:text = "Skin Therapy/Aesthetics/Laser Courses"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/ayurveda_banner2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/tt6"
+            android:text = "Laser Tattoo Removal"
+            android:layout_below="@+id/therapyintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/tt6course"
+            android:text = "Course Content : "
+            android:layout_below="@+id/tt6"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/tt6content"
+            android:text = "Hyperpigmentation, Birth mark, Tattoo removal."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/tt6course"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/tt6career"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/tt6content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/tt6copportunity"
+            android:text = " Aesthetician in a reputed clinic, assist the Dermatologist and Tattoo Removal Specialist."
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/tt6career"
+            android:layout_toEndOf="@+id/tt6career" />
+    </RelativeLayout>

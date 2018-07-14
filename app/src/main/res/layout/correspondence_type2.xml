@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list2"></ListView>
+
+      <!--  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/correspondenceintro"
+            android:text = "Certificate Courses"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/regular_courses_detail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct2"
+            android:text = "Certificate Course in Clinical Nutrition"
+            android:layout_below="@+id/correspondenceintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct2course"
+            android:text = "Course Content : "
+            android:layout_below="@+id/ct2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct2content"
+            android:text = "Elementary Nutrition, Therapeutic Nutrition and Food Science."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/ct2course"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct2career"
+            android:text = "Career Benefits : "
+            android:layout_below="@+id/ct2content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct2copportunity"
+            android:text = "The course equips an individual with medical, physiotherapy or paramedical background to enhance their Nutrition and Dietetics Knowledge and to apply the inputs in Therapeutic Diet Planning. This would supplement their specialization with nutritional inputs."
+            android:textSize="14dp"
+            android:layout_alignTop="@+id/ct2career"
+            android:layout_toEndOf="@+id/ct2career" />-->
+    </RelativeLayout>

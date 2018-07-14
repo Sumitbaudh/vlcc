@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/hairintro"
+            android:text = "Hair"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/hair_framesi_banner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achd"
+            android:text = "Advance Certificate Course in Hair Design (ACHD)"
+            android:layout_below="@+id/hairintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achdduration"
+            android:text = "Duration : "
+            android:layout_below="@+id/achd"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achdtime"
+            android:text = "144 hours"
+            android:layout_below="@+id/achd"
+            android:textAlignment="center"
+            android:layout_toRightOf="@+id/achdduration"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achdcourse"
+            android:text = "Course Content : "
+            android:layout_below="@+id/achdduration"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achdcontent"
+            android:text = "Advance Hair Cuts, Advance Chemical Jobs, Perming/Colouring, Hair Rebonding, Hair Jetting, Advance Hair Styling, Self Makeup (Day and Evening), Salon Management and Business Ethics."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/achdcourse"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achdcareer"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/achdcontent"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/achdcopportunity"
+            android:text = " Hair Dresser in a reputed salon."
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/achdcareer"
+            android:layout_toEndOf="@+id/achdcareer" />
+    </RelativeLayout>
+</ScrollView>

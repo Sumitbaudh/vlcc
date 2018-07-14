@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/makeupintro"
+            android:text = "Makeup"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/makeup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/advance"
+            android:text = "Professional Diploma in Makeup"
+            android:layout_below="@+id/makeupintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/advancecourse"
+            android:textColor="#000"
+            android:text = "Course Content : "
+            android:layout_below="@+id/advance"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/advancecontent"
+            android:text = " History of Make Up , Importance of Makeup, Make-up Theory, Different Eye Make-up, Day Make-up, Evening Make-up, Engagement Make-up, Reception Make-up, Bridal Make-up, Groom Make-up, Camouflage Make-up, Ramp Make-up, Illusion Make-Up, Portfolio Make-up, Fantasy Make-up, Glossy Make-up, Tan Make-up , Color Theory"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/advancecourse"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/advancecareer"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/advancecontent"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/advanceopportunity"
+            android:text="@string/makeup_opp"
+            android:textSize="15dp"
+            android:layout_marginLeft="6dp"
+            android:layout_below="@+id/advancecareer" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/duration"
+            android:text = "Duration:"
+            android:layout_below="@+id/advanceopportunity"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/time"
+            android:text = "304 Hours"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/duration"
+            android:layout_toEndOf="@+id/duration" />
+
+    </RelativeLayout>
+</ScrollView>

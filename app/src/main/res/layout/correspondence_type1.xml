@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list1">
+
+    </ListView>
+
+
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/correspondenceintro"
+            android:text = "Certificate Courses"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/regular_courses_detail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct1"
+            android:text = "Certificate Course in Sports and Fitness Nutrition"
+            android:layout_below="@+id/correspondenceintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct1course"
+            android:text = "Course Content : "
+            android:layout_below="@+id/ct1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct1content"
+            android:text = "Anatomy and Biomechanics, Exercise Physiology, Nutrition and Weight Management."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/ct1course"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct1career"
+            android:text = "Career Benefits : "
+            android:layout_below="@+id/ct1content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ct1opportunity"
+            android:text = "The course equips an individual with additional knowledge on the nutritional inputs related to fitness and nutritional needs during various forms of exercise."
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/ct1career"
+            android:layout_toEndOf="@+id/ct1career" />-->
+    </RelativeLayout>

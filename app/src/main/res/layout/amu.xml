@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/makeupintro"
+            android:text = "Makeup"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/makeup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/amu"
+            android:text = "Advance Diploma in Makeup"
+            android:layout_below="@+id/makeupintro"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/amucourse"
+            android:text = "Course Content : "
+            android:layout_below="@+id/amu"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/amucontent"
+            android:text="Make-Up Theory, History of Make Up , Importance of Makeup , 7 State Traditional Bridal Makeup, Blemished Skin Make-Up, Tan Make-Up, Yellow Make-Up, Glamour Make-Up, Page 3 Make-Up, High definition Make-Up,"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/amucourse"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/amucareer"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/amucontent"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/amucopportunity"
+            android:text = "@string/makeup_opp"
+            android:textSize="15dp"
+            android:layout_marginLeft="6dp"
+            android:layout_below="@+id/amucareer" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/duration"
+        android:text = "Duration:"
+        android:layout_below="@+id/amucopportunity"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/time"
+        android:text = "156 Hours"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/duration"
+        android:layout_toEndOf="@+id/duration" />
+    
+    </RelativeLayout>

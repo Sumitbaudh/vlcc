@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id = "@+id/about"
+        android:text = "About VLCC Institue"
+        android:background="@drawable/correspondence"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/about1"
+        android:text = "@string/introduction"
+        android:background="@drawable/correspondence"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_gzb"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:text="VLCC Institute Ghaziabad"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlcc_gzb"
+        android:textAlignment="center"
+        android:text="@string/about_vlcc_gzb"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/vision"
+        android:text = "Vision"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/pan_blue_circle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visiontext1"
+        android:textAlignment="center"
+        android:text="@string/about_us"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
